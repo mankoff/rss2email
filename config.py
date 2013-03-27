@@ -52,6 +52,7 @@ USE_PUBLISHER_EMAIL = 0
 SMTP_SEND = 1
 
 SMTP_SERVER = "smtp.yourisp.net:25"
+# SMTP_SERVER = "smtp.gmail.com:587"
 AUTHREQUIRED = 0 # if you need to use SMTP AUTH set to 1
 SMTP_USER = 'username'  # for SMTP AUTH, set SMTP username here
 SMTP_PASS = 'password'  # for SMTP AUTH, set SMTP password here

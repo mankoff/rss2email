@@ -1,3 +1,10 @@
+
+== Why this for of the for and not the original rss2email? ==
+
+The fork looked better than the original, but the fork
+didn't install properly on OS X so I forked it and made
+it work on OS X.
+
 == Why this fork and not the original rss2email? ==
 
 Respect for your $HOME, keeping it clean.

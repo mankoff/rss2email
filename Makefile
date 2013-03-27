@@ -8,11 +8,11 @@ install:
 	install -d $(INSTALLDIR)/bin
 	install -d $(SHAREDIR)/docs
 	install -d $(SHAREDIR)/examples
-	install -D -m755 r2e                  $(INSTALLDIR)/bin
-	install -D -m755 rss2email.py         $(INSTALLDIR)/bin
-	install -D -m755 misc/r2e-badfeeds.sh $(INSTALLDIR)/bin
-	install -D -m644 README            $(SHAREDIR)/docs
-	install -D -m644 config.py         $(SHAREDIR)/examples/
+	install -m755 r2e                  $(INSTALLDIR)/bin
+	install -m755 rss2email.py         $(INSTALLDIR)/bin
+	install -m755 misc/r2e-badfeeds.sh $(INSTALLDIR)/bin
+	install -m644 README            $(SHAREDIR)/docs
+	install -m644 config.py         $(SHAREDIR)/examples/
 
 uninstall:
 	rm -f $(INSTALLDIR)/bin/rss2email.py
